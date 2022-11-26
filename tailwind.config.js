@@ -12,6 +12,10 @@ module.exports = {
       1000:"1000ms",
     },
     extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },
