@@ -39,7 +39,7 @@ code {
 }
 
 .shake-little {
-  display: inherit;
+  display: inline-block;
   transform-origin: center center; }
 
 .shake-freeze,
