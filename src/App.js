@@ -34,7 +34,7 @@ const Box = ({ children }) => {
 
 function App() {
   return (
-    <div className="w-screen min-h-screen leading-extra-loose py-24 md:py-48 text-center bg-white text-stone-900 font-sans space-y-48 md:space-y-48 flex flex-col items-center justify-center">
+    <div className="w-screen overflow-x-hidden min-h-screen leading-extra-loose py-24 md:py-48 text-center bg-white text-stone-900 font-sans space-y-48 md:space-y-48 flex flex-col items-center justify-center">
       <Box>
         <div className="flex flex-col space-y-12 items-center">
           <div className="text-4xl md:text-7xl w-1/2">
