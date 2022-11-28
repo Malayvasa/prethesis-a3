@@ -392,7 +392,7 @@ function App() {
       <Box>
         <img
           className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
-          src="images/make-bonfire.png"
+          src="images/bonfire-make.png"
         ></img>
       </Box>
 
@@ -419,7 +419,7 @@ function App() {
       <Box>
         <img
           className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
-          src="images/monkey-sad.png"
+          src="images/sad-monkey.png"
         ></img>
       </Box>
 
@@ -545,6 +545,8 @@ function App() {
           src="images/bonfire.png"
         ></img>
       </Box>
+
+
 
 
     </div>
