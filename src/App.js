@@ -224,13 +224,6 @@ function App() {
       </Box>
 
       <Box>
-        <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
-          The Otter offers to help the monkey by getting him the large stones
-          from the bottom of the lake.
-        </div>
-      </Box>
-
-      <Box>
         <img
           className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
           src="images/otter.png"
@@ -238,9 +231,38 @@ function App() {
       </Box>
 
       <Box>
+        <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
+              src="images/otter-profile.png"
+            ></img>
+          </div>
+          <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+            I can help you get the large stones from the bottom of the lake, I know how to swim.
+          </div>
+        </div>
+      </Box>
+
+      <Box>
+        <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
+        <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+            No I'm learning from the crocodile, I can do it myself.
+          </div>
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
+              src="images/monkey-profile.png"
+            ></img>
+          </div>
+         
+        </div>
+      </Box>
+
+    
+      <Box>
         <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
-          The monkey refuses to take help, and continues to copy the crocodile
-          and fails again.
+          The monkey continues to copy the crocodile but isn't able to get deeper. 
         </div>
       </Box>
 
@@ -270,13 +292,6 @@ function App() {
           He climbs on trees and looks all over the place, while doing so a crow
           notices and approaches him.
         </div>
-      </Box>
-
-      <Box>
-        <img
-          className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
-          src="images/damp-hay.png"
-        ></img>
       </Box>
 
       <Box>
@@ -425,7 +440,7 @@ function App() {
 
       <Box>
         <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
-        Looking at the entire situation the owl comes to the monkey.
+          Looking at the entire situation the owl comes to the monkey.
         </div>
       </Box>
 
@@ -438,7 +453,8 @@ function App() {
             ></img>
           </div>
           <div className="text-2xl text-black md:mr-12 md:text-4xl md:w-1/3 flex-shrink">
-          Why did you not let the otter help you? He could have gotten the you the stones you needed
+            Why did you not let the otter help you? He could have gotten the you
+            the stones you needed
           </div>
         </div>
       </Box>
@@ -446,7 +462,8 @@ function App() {
       <Box>
         <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
           <div className="text-2xl text-black md:text-4xl md:w-1/3 flex-shrink">
-          I didn't trust the otters skills as I thought it would be better to learn swimming from the crocodile and get them myself.
+            I didn't trust the otters skills as I thought it would be better to
+            learn swimming from the crocodile and get them myself.
           </div>
 
           <div className="flex-shrink-0">
@@ -467,7 +484,8 @@ function App() {
             ></img>
           </div>
           <div className="text-2xl text-black md:mr-12 md:text-4xl md:w-1/3 flex-shrink">
-          But you trusted the birds skill of flying, why did you not take her suggestion and use dry leaves?
+            But you trusted the birds skill of flying, why did you not take her
+            suggestion and use dry leaves?
           </div>
         </div>
       </Box>
@@ -475,7 +493,8 @@ function App() {
       <Box>
         <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
           <div className="text-2xl text-black md:text-4xl md:w-1/3 flex-shrink">
-          I didn't trust her idea for replacing the hay, as I had only seen the humans use dry hay.
+            I didn't trust her idea for replacing the hay, as I had only seen
+            the humans use dry hay.
           </div>
 
           <div className="flex-shrink-0">
@@ -496,7 +515,7 @@ function App() {
             ></img>
           </div>
           <div className="text-2xl text-black md:mr-12 md:text-4xl md:w-1/3 flex-shrink">
-          You understood the elephants idea. Why did you not take his help?
+            You understood the elephants idea. Why did you not take his help?
           </div>
         </div>
       </Box>
@@ -504,7 +523,8 @@ function App() {
       <Box>
         <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
           <div className="text-2xl text-black md:text-4xl md:w-1/3 flex-shrink">
-          I didn't trust their process of getting the branch, as I had not done or seen that before.
+            I didn't trust their process of getting the branch, as I had not
+            done or seen that before.
           </div>
 
           <div className="flex-shrink-0">
@@ -520,34 +540,112 @@ function App() {
         <div className="flex gap-12 sm:mx-2 mx-0 flex-col  items-center justify-center">
           <div className="flex-shrink-0">
             <img
-              className="h-[100px] w-[100px] md:h-[350px] md:w-[350px] flex-grow mix-blend-multiply"
-              src="images/owl-profile.png"
+              className="h-[550px] w-[1100px] md:h-[550px] md:w-[1100px] flex-grow mix-blend-multiply"
+              src="images/owl-monkey-1.png"
             ></img>
           </div>
           <div className="text-2xl text-black md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
-          The first step in getting help from others is <span className='font-bold underline '>trust.</span>
+            The first step in working with others is{' '}
+            <span className="font-bold underline ">trust.</span>
           </div>
           <div className="text-2xl text-black md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
-          Doing everything on your own can be overwhelming, getting help makes it much easier.
+            Doing everything on your own can be overwhelming, getting help makes
+            it much easier.
           </div>
-        </div>
-      </Box>
-
-      <Box>
-        <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
-        Soon the other animals come with the materials, and together they made perfect the bonfire.
         </div>
       </Box>
 
       <Box>
         <img
-          className="md:h-[550px] md:w-[550px] aspect-auto mix-blend-multiply w-auto"
-          src="images/bonfire.png"
+          className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
+          src="images/materials.png"
         ></img>
       </Box>
 
+      <Box>
+        <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
+          Soon the other animals come with the materials, and together they made
+          the bonfire.
+        </div>
+      </Box>
 
+      <Box>
+        <img
+          className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
+          src="images/happy-bonfire.png"
+        ></img>
+      </Box>
 
+      <Box>
+        <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
+          As they sit around the bonfire
+        </div>
+      </Box>
+
+      <Box>
+        <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
+              src="images/monkey-profile.png"
+            ></img>
+          </div>
+          <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+            I should have trusted you with your skills and ideas, just because
+            they were different from what I do it doesn't make them wrong.
+          </div>
+        </div>
+      </Box>
+
+      <Box>
+        <img
+          className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
+          src="images/owl-monkey.png"
+        ></img>
+      </Box>
+
+      <Box>
+        <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
+              src="images/monkey-profile.png"
+            ></img>
+          </div>
+          <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+            Thank you for making me realise this
+          </div>
+        </div>
+      </Box>
+
+      <Box>
+        <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
+          <div className="text-2xl text-black md:mr-12 md:text-4xl md:w-1/3 flex-shrink">
+          It wasn't me that helped you, you realised it yourself.
+          </div>
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
+              src="images/owl-profile.png"
+            ></img>
+          </div>
+        </div>
+      </Box>
+
+      <Box>
+        <div className="flex gap-12 sm:mx-2 mx-0 flex-col  items-center justify-center">
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[350px] md:w-[350px] flex-grow mix-blend-multiply"
+              src="images/owl-profile.png"
+            ></img>
+          </div>
+          <div className="text-2xl text-black md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+          You reflected on your actions and that led you to the <span className='font-bold'>answer</span> 
+          </div>
+        
+        </div>
+      </Box>
 
     </div>
   );
