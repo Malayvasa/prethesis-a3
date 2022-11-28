@@ -533,6 +533,19 @@ function App() {
         </div>
       </Box>
 
+      <Box>
+        <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
+        Soon the other animals come with the materials, and together they made perfect the bonfire.
+        </div>
+      </Box>
+
+      <Box>
+        <img
+          className="md:h-[550px] md:w-[550px] aspect-auto mix-blend-multiply w-auto"
+          src="images/bonfire.png"
+        ></img>
+      </Box>
+
 
     </div>
   );
