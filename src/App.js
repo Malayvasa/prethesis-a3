@@ -557,7 +557,7 @@ function App() {
         <div className="flex gap-12 sm:mx-2 mx-0 flex-col  items-center justify-center">
           <div className="flex-shrink-0">
             <img
-              className="h-[550px] w-[1100px] md:h-[550px] md:w-[1100px] flex-grow mix-blend-multiply"
+              className="md:h-[550px] md:w-[1100px] flex-grow mix-blend-multiply"
               src="images/owl-monkey-1.png"
             ></img>
           </div>
