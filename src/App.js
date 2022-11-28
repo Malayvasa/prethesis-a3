@@ -68,7 +68,7 @@ function App() {
       <Box>
         <img
           className="md:h-[725px] md:w-[725px] aspect-auto mix-blend-multiply w-auto"
-          src="images/owl.png"
+          src="images/owl.gif"
         ></img>
       </Box>
 
