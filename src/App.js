@@ -239,14 +239,15 @@ function App() {
             ></img>
           </div>
           <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
-            I can help you get the large stones from the bottom of the lake, I know how to swim.
+            I can help you get the large stones from the bottom of the lake, I
+            know how to swim.
           </div>
         </div>
       </Box>
 
       <Box>
         <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
-        <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+          <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
             No I'm learning from the crocodile, I can do it myself.
           </div>
           <div className="flex-shrink-0">
@@ -255,14 +256,13 @@ function App() {
               src="images/monkey-profile.png"
             ></img>
           </div>
-         
         </div>
       </Box>
 
-    
       <Box>
         <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
-          The monkey continues to copy the crocodile but isn't able to get deeper. 
+          The monkey continues to copy the crocodile but isn't able to get
+          deeper.
         </div>
       </Box>
 
@@ -295,10 +295,10 @@ function App() {
       </Box>
 
       <Box>
-        <div className="text-2xl mx-12 md:text-5xl md:w-1/2">
-          "I have seen dry leaves by the large oak tree" says the crow, "that
-          should also work for the fire".
-        </div>
+        <img
+          className="md:h-[612px] md:w-[1224px] aspect-auto mix-blend-multiply w-auto"
+          src="images/crow.png"
+        ></img>
       </Box>
 
       <Box>
@@ -306,11 +306,28 @@ function App() {
           <div className="flex-shrink-0">
             <img
               className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
-              src="images/monkey-profile.png"
+              src="images/crow-profile.png"
             ></img>
           </div>
+
           <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
-            No, I've only seen the humans use hay, leaves won't work
+            I have seen dry leaves by the large oak tree, that should also help
+            with the fire.
+          </div>
+        </div>
+      </Box>
+
+      <Box>
+        <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
+          <div className="text-2xl md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
+            No, I've only seen the humans use hay, leaves won't help
+          </div>
+
+          <div className="flex-shrink-0">
+            <img
+              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] flex-grow mix-blend-multiply"
+              src="images/monkey-profile.png"
+            ></img>
           </div>
         </div>
       </Box>
@@ -558,7 +575,7 @@ function App() {
       <Box>
         <img
           className="md:h-[550px] md:w-[1100px] aspect-auto mix-blend-multiply w-auto"
-          src="images/materials.png"
+          src="images/all-materials.png"
         ></img>
       </Box>
 
@@ -621,7 +638,7 @@ function App() {
       <Box>
         <div className="flex gap-4 sm:mx-2 mx-0 flex-row  items-center justify-center">
           <div className="text-2xl text-black md:mr-12 md:text-4xl md:w-1/3 flex-shrink">
-          It wasn't me that helped you, you realised it yourself.
+            It wasn't me that helped you, you realised it yourself.
           </div>
           <div className="flex-shrink-0">
             <img
@@ -641,12 +658,11 @@ function App() {
             ></img>
           </div>
           <div className="text-2xl text-black md:mr-12 md:text-5xl md:w-1/2 flex-shrink">
-          You reflected on your actions and that led you to the <span className='font-bold'>answer</span> 
+            You reflected on your actions and that led you to the{' '}
+            <span className="font-bold">answer</span>
           </div>
-        
         </div>
       </Box>
-
     </div>
   );
 }
