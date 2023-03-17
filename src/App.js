@@ -40,7 +40,8 @@ function App() {
           <div className="text-4xl md:text-7xl w-1/2">
             The monkey that did everything <br /> on his own
           </div>
-          <div className="text-2xl">by Malay Vasa</div>
+          <div className="text-xl">Illustrations by Nandini Mundada</div>
+          <div className="text-xl">Developed by Malay Vasa</div>
         </div>
       </Box>
 
